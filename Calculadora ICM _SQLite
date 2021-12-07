@@ -1,0 +1,340 @@
+<? xml version = " 1.0 " encoding = " UTF-8 " ?>
+< ui  version = " 4.0 " >
+< classe > MainWindow </ class >
+< widget  class = " QMainWindow "  name = " MainWindow " >
+  < nome da propriedade  = " geometry " >
+   < rect >
+    < x > 0 </ x >
+    < y > 0 </ y >
+    < largura > 611 </ largura >
+    < altura > 462 </ altura >
+   </ rect >
+  </ propriedade >
+  < nome da propriedade  = " windowTitle " >
+   < string > Cadastro IMC de Usuários </ string >
+  </ propriedade >
+  < nome da propriedade  = " styleSheet " >
+   < string  notr = " true " > cor de fundo: rgb (170, 85, 255); </ string >
+  </ propriedade >
+  < widget  class = " QWidget "  name = " centralwidget " >
+   < widget  class = " QLabel "  name = " label " >
+    < nome da propriedade  = " geometry " >
+     < rect >
+      < x > 220 </ x >
+      < y > 20 </ y >
+      < largura > 191 </ largura >
+      < altura > 31 </ altura >
+     </ rect >
+    </ propriedade >
+    < nome da propriedade  = " fonte " >
+     < fonte >
+      < família > Arial Black </ família >
+      < pointsize > 16 </ pointsize >
+      < peso > 10 </ peso >
+      < itálico > falso </ itálico >
+      < negrito > falso </ negrito >
+     </ font >
+    </ propriedade >
+    < nome da propriedade  = " styleSheet " >
+     < string  notr = " true " > cor: rgb (255, 255, 255);
+fonte: 87 16pt & quot; Arial Black & quot; ; </ string >
+    </ propriedade >
+    < nome da propriedade  = " text " >
+     < string > Calculadora IMC </ string >
+    </ propriedade >
+    < nome da propriedade  = " alinhamento " >
+     < set > Qt :: AlignCenter </ set >
+    </ propriedade >
+   </ widget >
+   < widget  class = " QLabel "  name = " label_2 " >
+    < nome da propriedade  = " geometry " >
+     < rect >
+      < x > 40 </ x >
+      < y > 70 </ y >
+      < largura > 191 </ largura >
+      < altura > 31 </ altura >
+     </ rect >
+    </ propriedade >
+    < nome da propriedade  = " fonte " >
+     < fonte >
+      < família > Arial </ família >
+      < pointsize > 14 </ pointsize >
+      < peso > 10 </ peso >
+      < itálico > falso </ itálico >
+      < negrito > falso </ negrito >
+     </ font >
+    </ propriedade >
+    < nome da propriedade  = " styleSheet " >
+     < string  notr = " true " > cor: rgb (255, 255, 255);
+fonte: 87 14pt & quot; Arial & quot; ; </ string >
+    </ propriedade >
+    < nome da propriedade  = " text " >
+     < string > Nome: </ string >
+    </ propriedade >
+    < nome da propriedade  = " alinhamento " >
+     < set > Qt :: AlignCenter </ set >
+    </ propriedade >
+   </ widget >
+   < widget  class = " QLabel "  name = " label_3 " >
+    < nome da propriedade  = " geometry " >
+     < rect >
+      < x > 40 </ x >
+      < y > 150 </ y >
+      < largura > 191 </ largura >
+      < altura > 31 </ altura >
+     </ rect >
+    </ propriedade >
+    < nome da propriedade  = " fonte " >
+     < fonte >
+      < família > Arial </ família >
+      < pointsize > 14 </ pointsize >
+      < peso > 10 </ peso >
+      < itálico > falso </ itálico >
+      < negrito > falso </ negrito >
+     </ font >
+    </ propriedade >
+    < nome da propriedade  = " styleSheet " >
+     < string  notr = " true " > cor: rgb (255, 255, 255);
+fonte: 87 14pt & quot; Arial & quot; ; </ string >
+    </ propriedade >
+    < nome da propriedade  = " text " >
+     < string > Altura: </ string >
+    </ propriedade >
+    < nome da propriedade  = " alinhamento " >
+     < set > Qt :: AlignCenter </ set >
+    </ propriedade >
+   </ widget >
+   < widget  class = " QLabel "  name = " label_4 " >
+    < nome da propriedade  = " geometry " >
+     < rect >
+      < x > 40 </ x >
+      < y > 240 </ y >
+      < largura > 191 </ largura >
+      < altura > 31 </ altura >
+     </ rect >
+    </ propriedade >
+    < nome da propriedade  = " fonte " >
+     < fonte >
+      < família > Arial </ família >
+      < pointsize > 14 </ pointsize >
+      < peso > 10 </ peso >
+      < itálico > falso </ itálico >
+      < negrito > falso </ negrito >
+     </ font >
+    </ propriedade >
+    < nome da propriedade  = " styleSheet " >
+     < string  notr = " true " > cor: rgb (255, 255, 255);
+fonte: 87 14pt & quot; Arial & quot; ; </ string >
+    </ propriedade >
+    < nome da propriedade  = " text " >
+     < string > Peso: </ string >
+    </ propriedade >
+    < nome da propriedade  = " alinhamento " >
+     < set > Qt :: AlignCenter </ set >
+    </ propriedade >
+   </ widget >
+   < widget  class = " QLineEdit "  name = " lineEdit " >
+    < nome da propriedade  = " geometry " >
+     < rect >
+      < x > 40 </ x >
+      < y > 110 </ y >
+      < largura > 191 </ largura >
+      < altura > 31 </ altura >
+     </ rect >
+    </ propriedade >
+    < nome da propriedade  = " styleSheet " >
+     < string  notr = " true " > raio da borda: 15px;
+estilo de borda: início;
+largura da borda: 1px;
+cor de fundo: rgb (255, 255, 255); </ string >
+    </ propriedade >
+   </ widget >
+   < widget  class = " QLineEdit "  name = " lineEdit_2 " >
+    < nome da propriedade  = " geometry " >
+     < rect >
+      < x > 40 </ x >
+      < y > 190 </ y >
+      < largura > 191 </ largura >
+      < altura > 31 </ altura >
+     </ rect >
+    </ propriedade >
+    < nome da propriedade  = " styleSheet " >
+     < string  notr = " true " > raio da borda: 15px;
+estilo de borda: início;
+largura da borda: 1px;
+cor de fundo: rgb (255, 255, 255); </ string >
+    </ propriedade >
+   </ widget >
+   < widget  class = " QLineEdit "  name = " lineEdit_3 " >
+    < nome da propriedade  = " geometry " >
+     < rect >
+      < x > 40 </ x >
+      < y > 280 </ y >
+      < largura > 191 </ largura >
+      < altura > 31 </ altura >
+     </ rect >
+    </ propriedade >
+    < nome da propriedade  = " styleSheet " >
+     < string  notr = " true " > raio da borda: 15px;
+estilo de borda: início;
+largura da borda: 1px;
+cor de fundo: rgb (255, 255, 255); </ string >
+    </ propriedade >
+   </ widget >
+   < widget  class = " QPushButton "  name = " pushButton " >
+    < nome da propriedade  = " geometry " >
+     < rect >
+      < x > 30 </ x >
+      < y > 390 </ y >
+      < largura > 81 </ largura >
+      < altura > 31 </ altura >
+     </ rect >
+    </ propriedade >
+    < nome da propriedade  = " fonte " >
+     < fonte >
+      < família > MS Shell Dlg 2 </ família >
+      < pointsize > 11 </ pointsize >
+      < peso > 50 </ peso >
+      < itálico > falso </ itálico >
+      < negrito > falso </ negrito >
+     </ font >
+    </ propriedade >
+    < nome da propriedade  = " styleSheet " >
+     < string  notr = " true " > cor de fundo: rgb (98, 0, 147);
+fonte: 11pt & quot; MS Shell Dlg 2 ? ;
+raio da borda: 8px;
+cor: rgb (255, 255, 255); </ string >
+    </ propriedade >
+    < nome da propriedade  = " text " >
+     < string > Enviar </ string >
+    </ propriedade >
+   </ widget >
+   < widget  class = " QLabel "  name = " label_5 " >
+    < nome da propriedade  = " geometry " >
+     < rect >
+      < x > 20 </ x >
+      < y > 340 </ y >
+      < largura > 91 </ largura >
+      < altura > 31 </ altura >
+     </ rect >
+    </ propriedade >
+    < nome da propriedade  = " fonte " >
+     < fonte >
+      < família > Arial Black </ família >
+      < pointsize > 16 </ pointsize >
+      < peso > 10 </ peso >
+      < itálico > falso </ itálico >
+      < negrito > falso </ negrito >
+     </ font >
+    </ propriedade >
+    < nome da propriedade  = " styleSheet " >
+     < string  notr = " true " > cor: rgb (255, 255, 255);
+fonte: 87 16pt & quot; Arial Black & quot; ; </ string >
+    </ propriedade >
+    < nome da propriedade  = " text " >
+     < string > IMC: </ string >
+    </ propriedade >
+    < nome da propriedade  = " alinhamento " >
+     < set > Qt :: AlignCenter </ set >
+    </ propriedade >
+   </ widget >
+   < widget  class = " QLabel "  name = " label_6 " >
+    < nome da propriedade  = " geometry " >
+     < rect >
+      < x > 110 </ x >
+      < y > 340 </ y >
+      < largura > 101 </ largura >
+      < altura > 31 </ altura >
+     </ rect >
+    </ propriedade >
+    < nome da propriedade  = " fonte " >
+     < fonte >
+      < família > Arial Black </ família >
+      < pointsize > 16 </ pointsize >
+      < peso > 10 </ peso >
+      < itálico > falso </ itálico >
+      < negrito > falso </ negrito >
+     </ font >
+    </ propriedade >
+    < nome da propriedade  = " styleSheet " >
+     < string  notr = " true " > cor: rgb (255, 255, 255);
+fonte: 87 16pt & quot; Arial Black & quot; ; </ string >
+    </ propriedade >
+    < nome da propriedade  = " text " >
+     < string />
+    </ propriedade >
+    < nome da propriedade  = " alinhamento " >
+     < set > Qt :: AlignCenter </ set >
+    </ propriedade >
+   </ widget >
+   < widget  class = " QPushButton "  name = " pushButton_2 " >
+    < nome da propriedade  = " geometry " >
+     < rect >
+      < x > 130 </ x >
+      < y > 390 </ y >
+      < largura > 81 </ largura >
+      < altura > 31 </ altura >
+     </ rect >
+    </ propriedade >
+    < nome da propriedade  = " fonte " >
+     < fonte >
+      < família > MS Shell Dlg 2 </ família >
+      < pointsize > 11 </ pointsize >
+      < peso > 50 </ peso >
+      < itálico > falso </ itálico >
+      < negrito > falso </ negrito >
+     </ font >
+    </ propriedade >
+    < nome da propriedade  = " styleSheet " >
+     < string  notr = " true " > cor de fundo: rgb (98, 0, 147);
+fonte: 11pt & quot; MS Shell Dlg 2 ? ;
+raio da borda: 8px;
+cor: rgb (255, 255, 255); </ string >
+    </ propriedade >
+    < nome da propriedade  = " text " >
+     < string > Consultor </ string >
+    </ propriedade >
+   </ widget >
+   < widget  class = " QTableWidget "  name = " tableWidget " >
+    < nome da propriedade  = " geometry " >
+     < rect >
+      < x > 260 </ x >
+      < y > 80 </ y >
+      < largura > 331 </ largura >
+      < altura > 341 </ altura >
+     </ rect >
+    </ propriedade >
+    < nome da propriedade  = " styleSheet " >
+     < string  notr = " true " > cor de fundo: rgb (255, 255, 255);
+border-color: rgb (85, 0, 127); </ string >
+    </ propriedade >
+    < attribute  name = " horizontalHeaderDefaultSectionSize " >
+     < número > 85 </ número >
+    </ attribute >
+    < coluna >
+     < nome da propriedade  = " text " >
+      < string > Nome </ string >
+     </ propriedade >
+    </ coluna >
+    < coluna >
+     < nome da propriedade  = " text " >
+      < string > Altura </ string >
+     </ propriedade >
+    </ coluna >
+    < coluna >
+     < nome da propriedade  = " text " >
+      < string > Peso </ string >
+     </ propriedade >
+    </ coluna >
+    < coluna >
+     < nome da propriedade  = " text " >
+      < string > IMC </ string >
+     </ propriedade >
+    </ coluna >
+   </ widget >
+  </ widget >
+  < widget  class = " QStatusBar "  name = " statusbar " />
+</ widget >
+< recursos />
+< conexões />
+</ ui >
