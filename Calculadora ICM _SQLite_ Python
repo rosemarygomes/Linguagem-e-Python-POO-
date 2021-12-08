@@ -1,0 +1,15 @@
+import sqlite3
+
+
+# introduzir os dados de python para executar imc 
+
+conn = sqlite3.connect('imc')
+cursor = conn.dados()
+
+# lendo os dados
+inmc.execute("""
+SELECT * FROM ;
+""")
+for linha in imc.fetchall():
+    print(linha)
+conn.close()
