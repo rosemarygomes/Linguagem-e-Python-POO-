@@ -10,5 +10,8 @@ SQLite.
 
 Procedimentos
 Calculadora ICM _SQLite
-Calculadora ICM _SQLite_importar
-Calculadora ICM _SQLite_ Python
+Calculadora ICM _SQLite
+conn = sqlite3.connect(':memory:')
+conn = sqlite3.connect
+
+
