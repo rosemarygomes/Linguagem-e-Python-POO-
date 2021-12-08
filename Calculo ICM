@@ -5,7 +5,7 @@ peso = float(input("Digite seu peso em Kg: "))
 imc = peso / altura**2
 print("Seu IMC é: %.4f" % imc)
 if imc < 16:
-	print("Magreza grave")
+	print("Magreza")
 elif imc < 17:
 	print("Magreza moderada")
 elif imc < 18.5:
